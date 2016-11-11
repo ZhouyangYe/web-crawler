@@ -1,0 +1,25 @@
+{
+  "name": "spider",
+  "version": "1.0.0",
+  "description": "crawler practise",
+  "main": "spider.js",
+  "devDependencies": {},
+  "dependencies": {
+    "async": "^1.2.0",
+    "cheerio": "^0.19.0",
+    "chinese-random-ip": "0.0.5",
+    "events": "^1.1.1",
+    "iconv-lite": "^0.4.13",
+    "node-xlsx": "^0.5.1",
+    "superagent": "^1.2.0",
+    "superagent-binary-parser": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/huanz/node-spider-demo.git"
+  },
+  "keywords": [
+    "clawler"
+  ],
+  "author": "BT"
+}
