@@ -18,7 +18,6 @@ const handleDetail = () => {
     const run = () => {
       detail.getTemplate().getData().then((data) => {
         if (Object.keys(data).length === 2) {
-          console.log('in');
           setTimeout(() => {
             run();
           }, 100);
@@ -28,16 +27,16 @@ const handleDetail = () => {
         xlsx.add(data);
         count++;
         if (count === brandPool.length) {
-          console.log(index);
           index++;
           xlsx.create();
   
           if (index < brandsPool.length) {
-            //setTimeout(handleDetail, 0);
+            setTimeout(handleDetail, 0);
           }
         }
       });
-    }
+    };
+    run();
   });
 };
 
