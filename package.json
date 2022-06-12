@@ -1,25 +1,23 @@
 {
-  "name": "spider",
+  "name": "web-crawler",
   "version": "1.0.0",
-  "description": "crawler practise",
-  "main": "spider.js",
-  "devDependencies": {},
-  "dependencies": {
-    "async": "^1.2.0",
-    "cheerio": "^0.19.0",
-    "chinese-random-ip": "0.0.5",
-    "events": "^1.1.1",
-    "iconv-lite": "^0.4.13",
-    "node-xlsx": "^0.5.1",
-    "superagent": "^1.2.0",
-    "superagent-binary-parser": "^1.0.0"
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/huanz/node-spider-demo.git"
+    "url": "git+https://github.com/ZhouyangYe/web-crawler.git"
   },
-  "keywords": [
-    "clawler"
-  ],
-  "author": "BT"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZhouyangYe/web-crawler/issues"
+  },
+  "homepage": "https://github.com/ZhouyangYe/web-crawler#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.11",
+    "node-xlsx": "^0.21.0"
+  }
 }

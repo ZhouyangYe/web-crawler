@@ -1,0 +1,20 @@
+{
+  "parser": "@babel/eslint-parser",
+  "extends": "eslint:recommended",
+  "root": true,
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": "off",
+    "quotes": ["warn", "single", {
+      "allowTemplateLiterals": true
+    }],
+    "no-var": 1,
+    "no-shadow": 2
+  }
+}
